@@ -1,0 +1,29 @@
+*{
+    margin: 30px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+body h1{
+    font-size: 100px;
+}
+
+body a{
+    display: flex;
+    height: 60px;
+    width: 130px;
+    font-size: 30px;
+    background-color: gray;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

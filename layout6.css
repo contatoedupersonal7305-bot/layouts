@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+.linhas{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+
+.linha1{
+    background-color: violet;
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: end;
+    justify-content: end;
+}
+
+.bola1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.linha2{
+    background-color: lightgreen;
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+}
+
+.bola2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+.linha3{
+    background-color: pink;
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.linha4{
+    background-color: lightgoldenrodyellow;
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.linha5{
+    background-color: lightcyan;
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.bola5{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}

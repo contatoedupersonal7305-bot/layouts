@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    background-color: violet;
+    height: 100%;
+    width: 400px;
+    size: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pipi {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: red;
+    height: 100;
+    width: 100;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.article {
+    display: flex;
+    background-color: lightgreen;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.aside{
+    display: flex;
+    background-color: wheat;
+    height: 300;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 100px;
+    flex-direction: column;
+}
+
+
+.footer{
+    display: flex;
+    background-color: purple;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.tela{
+    display: flex;
+    height: 100%;
+}
+
+.link {
+    display: flex;
+    background-color: red;
+    font-size: 40px;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    background-color: cyan;
+    font-size: 40px;
+    height: 150px;
+    width: 150px;   
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco1{
+    background-color: lightblue;
+    display: flex;
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco2{
+    background-color: lightcoral;
+    display: flex;
+    gap: 30px;
+    align-items: start;
+    justify-content: center;
+    height: 200px;
+    width: 350px;
+}
+
+.bloco3{
+    background-color: purple;
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    justify-content: end;
+    height: 200px;
+    width: 350px;
+}
+
+.blocos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
